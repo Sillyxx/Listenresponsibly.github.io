@@ -1,0 +1,115 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; /* Light Gray background for the body */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header Styling with Red Background */
+header {
+    background-color: #f44336; /* Red Background */
+    color: white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Main Content Styling */
+main {
+    padding: 2rem;
+    background-color: #fff;
+    margin-top: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Fact and Challenge Text */
+.fact, .challenge-text, .question {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555; /* Slightly darker text for readability */
+}
+
+/* Styling for Buttons */
+.btn {
+    display: inline-block;
+    background-color: #f44336; /* Red Background */
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+    background-color: #e53935; /* Darker red on hover */
+}
+
+/* Leaderboard List */
+.leaderboard {
+    list-style-type: none;
+    padding: 0;
+}
+
+.leaderboard li {
+    background-color: #fff;
+    margin: 10px auto;
+    padding: 10px;
+    width: 50%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow for list items */
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+form button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Error/Message Display */
+#username-message {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: red;
+    font-weight: bold;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    color: #333;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
